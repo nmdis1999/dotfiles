@@ -4,4 +4,7 @@ require "user.plugins"
 require "user.colorscheme"
 require "user.alpha"
 require "user.cmp"
-
+require "user.comment"
+require "user.treesitter"
+require "user.gitsigns"
+require "user.telescope"
