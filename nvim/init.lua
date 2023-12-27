@@ -1,10 +1,2 @@
-require "user.options"
-require "user.keymaps"
-require "user.plugins"
-require "user.colorscheme"
-require "user.alpha"
-require "user.cmp"
-require "user.comment"
-require "user.treesitter"
-require "user.gitsigns"
-require "user.telescope"
+require('iti.config.lazy')
+
