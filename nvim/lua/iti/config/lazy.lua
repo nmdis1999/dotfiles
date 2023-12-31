@@ -14,7 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 require("iti.config.globals")
 require("iti.config.options")
 require("iti.config.keymaps")
--- require("config.autocmds")
+require("iti.config.autocmds")
 
 local plugins = "iti.plugins"
 
