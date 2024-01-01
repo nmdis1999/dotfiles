@@ -23,7 +23,7 @@ local opts = {
 		lazy = true,
 	},
 	install = {
-		colorscheme = { "gruvbox" },
+		colorscheme = { "gruvbox-material, gruvbox" },
 	},
 	rtp = {
 		disabled_plugins = {
