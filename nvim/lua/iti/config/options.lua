@@ -6,7 +6,9 @@ opt.shiftwidth = 2
 opt.softtabstop = 2
 opt.expandtab = true
 opt.smartindent = true
-opt.wrap = false
+opt.wrap = true
+opt.linebreak = true  -- Break lines at word boundaries
+opt.textwidth = 80  -- Set maximum text width
 
 -- Search
 opt.incsearch = true

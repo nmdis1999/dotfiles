@@ -16,14 +16,12 @@ require("iti.config.options")
 require("iti.config.keymaps")
 require("iti.config.autocmds")
 
-local plugins = "iti.plugins"
-
 local opts = {
     defaults = {
         lazy = true,
     },
     install = {
-        colorscheme = { "midnight, gruvbox-material, gruvbox" },
+        colorscheme = { "gruvbox-material" },
     },
     rtp = {
         disabled_plugins = {
@@ -43,4 +41,5 @@ local opts = {
     },
 }
 
+local plugins = "iti.plugins"
 require("lazy").setup(plugins, opts)
